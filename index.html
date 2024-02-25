@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+
+<!-- icon use from 'https://ionic.io/ionicons' -->
+    
+    <header class="header">
         <h2 class="logo">HostelHaven</h2>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="menu-button">
+            <ion-icon name="menu" id="menu-icon"></ion-icon>
+            <ion-icon name="close" id="close-icon"></ion-icon>
+        </label>
+
         <nav class="navigation">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-            
-            <button class="Login">Login</button>
+            <a href="#" style="--i:0">Home</a>
+            <a href="#" style="--i:1">About</a>
+            <a href="#" style="--i:2">Services</a>
+            <a href="#" style="--i:3">Contact</a>
+            <button class="Login" style="--i:4">login</button>
         </nav>
     </header>
+
+<!-- responsive website -->
+    
 
 
     <!-- login page -->

@@ -70,7 +70,7 @@ function handleLoginButtonClick() {
 // Function to simulate login success
 function simulateLoginSuccess() {
     // Simulate successful login by changing the button text to "Hostel"
-    btnPopup.textContent = "Hostel";
+    btnPopup.textContent = "Add Hostel";
     // Close the login page
     wrapper.classList.remove('active-popup');
     // Update to indicate that the button is now "Hostel"
